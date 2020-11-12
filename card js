@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <article class="card">
+            <h2 id="personName"></h2>
+            <img src="nature.jpg" width="150px" height="140px" alt="">
+            <div class="info">
+                <p>
+                    <strong>Data nasterii:</strong> 
+                    <span id="birthDate"></span>
+                </p>
+                <p>
+                    <strong>Telefon:</strong>
+                    <span id="phoneNumber"></span>
+                </p>    
+                <p>
+                    <strong>E-mail:</strong>
+                    <span id="emailAdress"></span>
+                </p>
+                <p>
+                    <strong>Profesia:</strong>
+                    <span id="profession"></span>
+                </p>
+            </div>        
+        </article>
 
+        <script src="app.js"></script>
+    </body>
+    </html>
